@@ -1,21 +1,32 @@
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
+*.so
+.Python
 .venv/
 venv/
 env/
+ENV/
 
-# Environment / secrets
-.env
-.env.local
-
-# Runtime data (downloads, temp files)
+# Runtime data (downloads, temp files, logs)
 downloads/
 *.log
 .pytest_cache/
 
-# OS / editor
+# OS files
 .DS_Store
-.idea/
+Thumbs.db
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
